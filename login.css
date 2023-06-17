@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+#myntra {
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  height: 80px !important;
+  width: 100%;
+  box-shadow: rgba(168, 168, 168, 0.2) 0px 2px 29px 0px;
+  /* border-bottom: 1px solid rgb(237, 237, 237); */
+}
+
+#navbar > #myntra-navbar {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#logo {
+  height: 50%;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#logo > img {
+  height: 100%;
+  width: 88% !important;
+}
+
+#nav-items {
+  height: 80%;
+  width: 40%;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(79, 79, 79);
+  /* border: 1px solid black; */
+}
+
+#search {
+  height: 82%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search > div {
+  height: 38px;
+  width: 100%;
+  border: 1px solid rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* border: 1px solid black; */
+}
+
+#search > div > input {
+  background-color: rgb(242, 242, 242);
+}
+
+#nav-others {
+  height: 80%;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#nav-others > div {
+  height: 80%;
+  width: 28%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  /* border: 1px solid black; */
+}
+
+#nav-others > div > P {
+  /* padding-right: 35px; */
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#body {
+  margin-top: 80px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdefea;
+  /* border: 1px solid black; */
+}
+
+#body > #login-structure {
+  /* height: 600px; */
+  margin: 35px 0;
+  width: 30%;
+  /* border: 1px solid rgb(156, 156, 156); */
+}
+
+#body > #login-structure > #upper {
+  height: 20%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+#body > #login-structure > #upper > img {
+  height: 100%;
+  width: 100%;
+}
+
+#body > #login-structure > #lower {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: white;
+  /* border: 1px solid red; */
+}
+
+#body > #login-structure > #lower > #header {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#body > #login-structure > #lower > #header > h2 {
+  color: rgb(90, 90, 90);
+}
+
+#body > #login-structure > #lower > #header > span {
+  padding: 0 5px;
+}
+
+#body > #login-structure > #lower > #name {
+  height: 38px;
+  margin: 10px 0;
+}
+
+#body > #login-structure > #lower > #name > div {
+  height: 100%;
+  /* border: 1px solid green; */
+}
+
+#body > #login-structure > #lower > #name > div > input {
+  height: 100% !important;
+  width: 100% !important;
+  border: none;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+#body > #login-structure > #lower > #name > div > input::placeholder {
+  padding-left: 10px;
+}
+
+#body > #login-structure > #lower > #email {
+  height: 38px;
+  margin: 10px 0;
+}
+
+#body > #login-structure > #lower > #email > div {
+  height: 100%;
+  /* border: 1px solid green; */
+}
+
+#body > #login-structure > #lower > #email > div > input {
+  height: 100% !important;
+  width: 100% !important;
+  border: none;
+  border: 1px solid rgb(161, 159, 159) !important;
+  
+}
+
+#body > #login-structure > #lower > #email > div > input::placeholder {
+  padding-left: 10px;
+}
+
+#body > #login-structure > #lower > #number {
+  border: 1px solid rgb(161, 159, 159) !important;
+  height: 38px;
+  margin: 10px 0;
+}
+
+#body > #login-structure > #lower > #number > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#body > #login-structure > #lower > #number > div > input::placeholder {
+  padding-left: 10px;
+}
+
+#body > #login-structure > #lower > #password > div {
+  height: 100%;
+  /* border: 1px solid green; */
+  border: 1px solid rgb(161, 159, 159) !important;
+}
+
+#body > #login-structure > #lower > #password {
+  height: 38px;
+  margin: 10px 0;
+}
+
+#body > #login-structure > #lower > #password > div > input {
+  height: 100% !important;
+  width: 100% !important;
+  border: none;
+  border: 1px solid grey;
+}
+
+#body > #login-structure > #lower > #password > div > input::placeholder {
+  padding-left: 10px;
+}
+
+#body > #login-structure > #lower > #confirm {
+  height: 38px;
+  margin: 10px 0;
+}
+
+#body > #login-structure > #lower > #confirm > div {
+  height: 100%;
+  border: 1px solid grey;
+  /* border: 1px solid green; */
+}
+
+#body > #login-structure > #lower > #confirm > div > input {
+  height: 100% !important;
+  width: 100% !important;
+  border: none;
+  border: 1px solid grey;
+}
+
+#body > #login-structure > #lower > #confirm > div > input::placeholder {
+  padding-left: 10px;
+}
+
+#body > #login-structure > #lower > #terms {
+  height: auto;
+  margin: 10px 0;
+}
+
+#body > #login-structure > #lower > #terms > p {
+  font-size: 13px;
+  color: rgb(52, 52, 52);
+}
+
+#body > #login-structure > #lower > #button {
+  height: 38px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+#body > #login-structure > #lower > #trouble {
+  height: auto;
+  margin: 10px 0;
+}
+
+#body > #login-structure > #lower > #trouble > p {
+  font-size: 13px;
+  color: rgb(52, 52, 52);
+}

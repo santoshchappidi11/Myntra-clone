@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Men</title>
+    <link rel="stylesheet" href="./men.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="./javascript.js"></script>
+  </head>
+
+  <body>
+    <div id="screen">
+      <div id="myntra">
+        <div id="navbar">
+          <div id="myntra-navbar">
+            <div id="logo">
+              <a href="./myntra-home.html">
+                <img
+                  style="height: 100%; width: 100%"
+                  src="./images/myntra-logo.jpg"
+                />
+              </a>
+            </div>
+            <div id="nav-items">
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./men.html"
+                  >Men</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./women.html"
+                  >Women</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./kids.html"
+                  >Kids</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./home-living.html"
+                  >Home & Living</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./beauty.html"
+                  >Beauty</a
+                >
+              </div>
+              <div>
+                Studio <sup style="font-size: 10px; color: #ff3f75">NEW</sup>
+              </div>
+            </div>
+            <div id="search">
+              <div>
+                <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+                <input
+                  placeholder="Search for products,brands & More..."
+                  style="
+                    height: 30px;
+                    width: 300px;
+                    border: none;
+                    outline: none;
+                  "
+                />
+              </div>
+            </div>
+
+            <div id="nav-others">
+              <div
+                id="profile"
+                onmouseenter="showPopUp()"
+                onmouseleave="hidePopUp()"
+              >
+                <i class="fa-solid fa-user"></i>
+                <span><a href="./profile.html">Profile</a></span>
+              </div>
+              <div id="wishlist">
+                <i class="fa-solid fa-heart"></i>
+                <span><a href="./wishlist.html">Wishlist</a></span>
+              </div>
+              <div id="cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span><a href="./cart.html">Bag</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div
+        class="modal-box hide"
+        onmouseenter="showPopUp()"
+        onmouseleave="hidePopUp()"
+      >
+        <div class="box" id="welcome">
+          <h3>Welcome</h3>
+          <span>To access account and manage orders</span>
+          <div id="button">
+            <a href="./profile.html">
+              <button style="text-decoration: none">LOGIN / SIGNUP</button>
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <span>Orders</span>
+          <span>Wishlist</span>
+          <span>Gift Cards</span>
+          <span>Contact Us</span>
+          <span>Myntra insider</span>
+        </div>
+        <div class="box">
+          <span>Myntra Credit</span>
+          <span>Coupons</span>
+          <span>Saved Cards</span>
+          <span>Saved VPA</span>
+          <span>Saved Addresses</span>
+        </div>
+      </div>
+      <!--  -->
+
+      <div id="product-men">
+        <div id="path">
+          <p>Home / Clothing / <b>Men T-Shirts</b></p>
+        </div>
+        <div id="items">
+          <h3>
+            Men T-Shirts
+            <span style="font-weight: 400; color: rgb(100, 100, 100)"
+              >- 106356 items</span
+            >
+          </h3>
+        </div>
+        <div id="men-filters">
+          <div id="filters-main">
+            <h3>FILTERS</h3>
+          </div>
+          <div id="sort">
+            <div id="sort-1">
+              <div>
+                <p>Bundles</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div>
+                <p>Country of Origin</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <div>
+                <p>Size</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+            <div id="sort-2">
+              <select>
+                <option>Sort by : Recommended</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="body">
+        <div id="left">
+          <div id="categories">
+            <h2>CATEGORIES</h2>
+            <input type="checkbox" />
+            <label>Tshirts</label><br />
+            <input type="checkbox" />
+            <label>Lounge Tshirts</label>
+          </div>
+          <div id="brand">
+            <h2>BRAND</h2>
+            <input type="checkbox" />
+            <label>Roadster</label><br />
+            <input type="checkbox" />
+            <label>Friskers</label><br />
+            <input type="checkbox" />
+            <label>U.S. Polo Assn.</label><br />
+            <input type="checkbox" />
+            <label>Tommy Hilfiger</label><br />
+            <input type="checkbox" />
+            <label>Jack & Jones</label><br />
+            <input type="checkbox" />
+            <label>HRX by Hritik Roshan </label><br />
+            <input type="checkbox" />
+            <label>Puma</label><br />
+            <input type="checkbox" />
+            <label>Being Human</label>
+            <div id="more">
+              <span>+ 632 more</span>
+            </div>
+          </div>
+          <div id="color">
+            <h2>COLOR</h2>
+            <div class="color-structure">
+              <input type="checkbox" />
+              <div id="black"></div>
+              <label>Black</label>
+            </div>
+            <div class="color-structure">
+              <input type="checkbox" />
+              <div id="blue"></div>
+              <label>Blue</label>
+            </div>
+            <div class="color-structure">
+              <input type="checkbox" />
+              <div id="white"></div>
+              <label>White</label>
+            </div>
+            <div class="color-structure">
+              <input type="checkbox" />
+              <div id="navy"></div>
+              <label>Navy Blue</label>
+            </div>
+            <div class="color-structure">
+              <input type="checkbox" />
+              <div id="green"></div>
+              <label>Green</label>
+            </div>
+            <div class="color-structure">
+              <input type="checkbox" />
+              <div id="grey"></div>
+              <label>Grey</label>
+            </div>
+            <div class="color-structure">
+              <input type="checkbox" />
+              <div id="red"></div>
+              <label>Red</label>
+            </div>
+            <div id="more">
+              <span>+ 39 more</span>
+            </div>
+          </div>
+
+          <div id="discount">
+            <h2>DISCOUNT RANGE</h2>
+            <input type="radio" />
+            <label>10% and above</label><br />
+            <input type="radio" />
+            <label>20% and above</label><br />
+            <input type="radio" />
+            <label>30% and above</label><br />
+            <input type="radio" />
+            <label>40% and above</label><br />
+            <input type="radio" />
+            <label>50% and above</label><br />
+            <input type="radio" />
+            <label>60% and above</label><br />
+            <input type="radio" />
+            <label>70% and above</label><br />
+            <input type="radio" />
+            <label>80% and above</label>
+          </div>
+        </div>
+        <div id="right">
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg"
+            />
+            <h2>Huetrap</h2>
+            <p>Typography print T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 340</h3>
+              <span>Rs. 1099</span>
+              <h6>(69% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <a href="./single-product.html">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2475811/2018/4/20/11524206887991-Roadster-Men-Tshirts-9291524206887825-1.jpg"
+              />
+            </a>
+            <h2>Roadster</h2>
+            <p>Pure Cotton T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 239</h3>
+              <span>Rs. 599</span>
+              <h6>(60% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11545192/2022/3/25/626b0419-cbb0-4200-8490-67e20a0021c51648208612203-Roadster-Men-Green--White-Printed-Round-Neck-Pure-Cotton-T-s-1.jpg"
+            />
+            <h2>Roadster</h2>
+            <p>Printed Round Neck T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 314</h3>
+              <span>Rs. 899</span>
+              <h6>(65% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/21936198/2023/2/23/c5bd261e-b2b9-4996-8736-7fd5d909dc5b1677135088695-Louis-Philippe-Sport-Men-Tshirts-5851677135088136-1.jpg"
+            />
+            <h2>Louis Philippe Sport</h2>
+            <p>Polo Collar T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 1049</h3>
+              <span>Rs. 1499</span>
+              <h6>(30% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1700944/2019/6/8/488007ef-c65e-4a2f-a92b-65b6846894861559989274078-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg"
+            />
+            <h2>HRX by Hrithik Roshan</h2>
+            <p>Printed Cotton Pure Cotton T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 349</h3>
+              <span>Rs. 699</span>
+              <h6>(50% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/22879942/2023/4/25/92aba434-6d11-4456-aabf-3715df3664b31682367889514USPoloAssnMenBlackPoloCollarAppliqueT-shirt1.jpg"
+            />
+            <h2>U.S. Pollo Assn.</h2>
+            <p>Polo Collar T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 576</h3>
+              <span>Rs. 1049</span>
+              <h6>(45% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18176640/2023/5/18/efbd5632-a203-495b-9ab6-ebea9ef63b2b1684410440255-Tommy-Hilfiger-Men-Tshirts-6151684410439892-1.jpg"
+            />
+            <h2>Tommy Hilfiger</h2>
+            <p>Men Pure Cotton T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 1649</h3>
+              <span>Rs. 2999</span>
+              <h6>(45% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1996770/2018/2/8/11518088823846-Roadster-Men-Rust-Solid-Henley-Neck-T-shirt-7631518088823602-1.jpg"
+            />
+            <h2>Roadster</h2>
+            <p>Henly Neck T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 249</h3>
+              <span>Rs. 499</span>
+              <h6>(50% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/21474638/2023/1/24/3a74185f-276d-48df-8e73-4270bdabbfe31674562975045-Louis-Philippe-Sport-Men-Tshirts-4131674562974519-1.jpg"
+            />
+            <h2>Louis Philippe Sport</h2>
+            <p>Men Polo Collar Slim Fit T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 884</h3>
+              <span>Rs. 1499</span>
+              <h6>(41% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/12377258/2020/9/11/ce1b7bcb-a65a-4eb0-a317-42ac02718f1e1599798741705UrbanoFashionPrintedMenRoundNeckDarkGreenT-Shirt1.jpg"
+            />
+            <h2>Urbano Fashion</h2>
+            <p>Slim Tropical Printed T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 719</h3>
+              <span>Rs. 1599</span>
+              <h6>(55% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16878774/2022/2/4/98f122ad-aeb6-40f3-8f18-96751883c90d1643953479039-Louis-Philippe-Jeans-Men-Tshirts-1851643953478551-1.jpg"
+            />
+            <h2>Louis Philippe Jeans</h2>
+            <p>Men Printed Slim Fit T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 1234</h3>
+              <span>Rs. 1899</span>
+              <h6>(38% OFF)</h6>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/8841173/2019/3/19/e73991be-bd0c-4dd3-8390-bb9c460d02311552986669941-Roadster-Men-Tshirts-2621552986668325-1.jpg"
+            />
+            <h2>Roadster</h2>
+            <p>Printed Round Neck T-shirt</p>
+            <div class="price-structure">
+              <h3>Rs. 239</h3>
+              <span>Rs. 799</span>
+              <h6>(70% OFF)</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+         <!-- --------------------- -->
+         <div id="offer">
+          <h2>FLAT ₹500 OFF</h2>
+          <i
+            style="padding-top: 25px; font-size: 40px"
+            class="fa-solid fa-sort-up"
+          ></i>
+        </div>
+        <!-- --------------------- -->
+
+    </div>
+  </body>
+</html>

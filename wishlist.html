@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wishlist</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./wishlist.css" type="text/css" />
+    <script src="./javascript.js"></script>
+  </head>
+  <body>
+    <div id="screen">
+      <div id="myntra">
+        <div id="navbar">
+          <div id="myntra-navbar">
+            <div id="logo">
+              <a href="./myntra-home.html">
+                <img
+                  style="height: 100%; width: 100%"
+                  src="./images/myntra-logo.jpg"
+                />
+              </a>
+            </div>
+            <div id="nav-items">
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./men.html"
+                  >Men</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./women.html"
+                  >Women</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./kids.html"
+                  >Kids</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./home-living.html"
+                  >Home & Living</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./beauty.html"
+                  >Beauty</a
+                >
+              </div>
+              <div>
+                Studio <sup style="font-size: 10px; color: #ff3f75">NEW</sup>
+              </div>
+            </div>
+            <div id="search">
+              <div>
+                <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+                <input
+                  placeholder="Search for products,brands & More..."
+                  style="
+                    height: 30px;
+                    width: 300px;
+                    border: none;
+                    outline: none;
+                  "
+                />
+              </div>
+            </div>
+
+            <div id="nav-others">
+              <div
+                id="profile"
+                onmouseenter="showPopUp()"
+                onmouseleave="hidePopUp()"
+              >
+                <i class="fa-solid fa-user"></i>
+                <span><a href="./profile.html">Profile</a></span>
+              </div>
+              <div id="wishlist">
+                <i class="fa-solid fa-heart"></i>
+                <span><a href="./wishlist.html">Wishlist</a></span>
+              </div>
+              <div id="cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span><a href="./cart.html">Bag</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div
+        class="modal-box hide"
+        onmouseenter="showPopUp()"
+        onmouseleave="hidePopUp()"
+      >
+        <div class="box" id="welcome">
+          <h3>Welcome</h3>
+          <span>To access account and manage orders</span>
+          <div id="button">
+            <a href="./profile.html">
+              <button style="text-decoration: none">LOGIN / SIGNUP</button>
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <span>Orders</span>
+          <span>Wishlist</span>
+          <span>Gift Cards</span>
+          <span>Contact Us</span>
+          <span>Myntra insider</span>
+        </div>
+        <div class="box">
+          <span>Myntra Credit</span>
+          <span>Coupons</span>
+          <span>Saved Cards</span>
+          <span>Saved VPA</span>
+          <span>Saved Addresses</span>
+        </div>
+      </div>
+      <!--  -->
+
+      <div id="body">
+        <div id="item-count">
+          <span><b>My Wishlist</b> 5 items</span>
+        </div>
+        <div id="wishlist-items">
+          <div class="item">
+            <div class="img">
+              <img
+                src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg"
+              />
+              <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div class="item-name">
+              <p>Huetrap Men Beige & Black Type & Round T-shirt</p>
+            </div>
+            <div class="price">
+              <h4>Rs. 318</h4>
+              <span
+                style="
+                  text-decoration: line-through;
+                  font-size: 13px;
+                  color: rgb(86, 86, 86);
+                "
+                >Rs 1,099</span
+              >
+              <b style="color: #ff936a">(71% OFF)</b>
+            </div>
+            <div class="button">
+              <button>MOVE TO BAG</button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/22879942/2023/4/25/92aba434-6d11-4456-aabf-3715df3664b31682367889514USPoloAssnMenBlackPoloCollarAppliqueT-shirt1.jpg"
+              />
+              <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div class="item-name">
+              <p>U.S. Pollo Assn. Polo Collar black T-shirt</p>
+            </div>
+            <div class="price">
+              <h4>Rs. 576</h4>
+              <span
+                style="
+                  text-decoration: line-through;
+                  font-size: 13px;
+                  color: rgb(86, 86, 86);
+                "
+                >Rs 1,049</span
+              >
+              <b style="color: #ff936a">(45% OFF)</b>
+            </div>
+            <div class="button">
+              <button>MOVE TO BAG</button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2475811/2018/4/20/11524206887991-Roadster-Men-Tshirts-9291524206887825-1.jpg"
+              />
+              <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div class="item-name">
+              <p>Roadster Pure Cotton T-Shirt & so...</p>
+            </div>
+            <div class="price">
+              <h4>Rs. 239</h4>
+              <span
+                style="
+                  text-decoration: line-through;
+                  font-size: 13px;
+                  color: rgb(86, 86, 86);
+                "
+                >Rs 599</span
+              >
+              <b style="color: #ff936a">(60% OFF)</b>
+            </div>
+            <div class="button">
+              <button>MOVE TO BAG</button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11545192/2022/3/25/626b0419-cbb0-4200-8490-67e20a0021c51648208612203-Roadster-Men-Green--White-Printed-Round-Neck-Pure-Cotton-T-s-1.jpg"
+              />
+              <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div class="item-name">
+              <p>Roadster Printed Neck Round T-Shirt</p>
+            </div>
+            <div class="price">
+              <h4>Rs. 318</h4>
+              <span
+                style="
+                  text-decoration: line-through;
+                  font-size: 13px;
+                  color: rgb(86, 86, 86);
+                "
+                >Rs 1,099</span
+              >
+              <b style="color: #ff936a">(71% OFF)</b>
+            </div>
+            <div class="button">
+              <button>MOVE TO BAG</button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/21936198/2023/2/23/c5bd261e-b2b9-4996-8736-7fd5d909dc5b1677135088695-Louis-Philippe-Sport-Men-Tshirts-5851677135088136-1.jpg"
+              />
+              <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div class="item-name">
+              <p>HRX by Hrithik Roshan Printed Cotton Pure Cotton T-shirt</p>
+            </div>
+            <div class="price">
+              <h4>Rs. 349</h4>
+              <span
+                style="
+                  text-decoration: line-through;
+                  font-size: 13px;
+                  color: rgb(86, 86, 86);
+                "
+                >Rs 699</span
+              >
+              <b style="color: #ff936a">(50% OFF)</b>
+            </div>
+            <div class="button">
+              <button>MOVE TO BAG</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="myntra-footer">
+        <div id="footer">
+          <div id="footer-1">
+            <div id="shopping">
+              <h5>ONLINE SHOPPING</h5>
+              <span>Men</span>
+              <span>Women</span>
+              <span>Kids</span>
+              <span>Home & Living</span>
+              <span>Beauty</span>
+              <span>Gift Cards</span>
+              <span>Myntra Insider</span>
+            </div>
+            <div id="links">
+              <h5>USEFUL LINKS</h5>
+              <span>Blogs</span>
+              <span>Careers</span>
+              <span>Site Map</span>
+              <span>Corporate Information</span>
+            </div>
+          </div>
+          <div id="footer-2">
+            <h5>CUSTOMER POLICIES</h5>
+            <span>Contact US</span>
+            <span>FAQ</span>
+            <span>T&C</span>
+            <span>Terms of Use</span>
+            <span>Track Orders</span>
+            <span>Shipping</span>
+            <span>Cancellation</span>
+            <span>Returns</span>
+            <span>Privacy Policy</span>
+          </div>
+          <div id="footer-3">
+            <div id="mobile">
+              <h5>EXPERIENCE MYNTRA APP ON MOBILE</h5>
+              <div id="play-stores">
+                <div>
+                  <img
+                    src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="socials">
+              <h5>KEEP IN TOUCH</h5>
+              <i class="fa-brands fa-square-facebook fa-xl"></i>
+              <i class="fa-brands fa-twitter fa-xl"></i>
+              <i class="fa-brands fa-youtube fa-xl"></i>
+              <i class="fa-brands fa-instagram fa-xl"></i>
+            </div>
+            <div></div>
+          </div>
+          <div id="footer-4">
+            <div class="myntra-policy">
+              <div>
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
+                />
+              </div>
+              <span>
+                <b style="color: black">100% original</b> guarantee for all
+                products on myntra.com
+              </span>
+            </div>
+            <div class="myntra-policy">
+              <div>
+                <img
+                  src="https://assets.myntassets.com/assets/images/retaillabs/2023/5/22/becb1b16-86cc-4e78-bdc7-7801c17947831684737106127-Return-Window-image.png"
+                />
+              </div>
+              <span>
+                <b style="color: black">Return within 30 days</b> of recieving
+                your order
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

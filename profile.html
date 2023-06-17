@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./profile.css" type="text/css" />
+    <script src="./javascript.js"></script>
+  </head>
+  <body>
+    <div id="screen">
+      <div id="myntra">
+        <div id="navbar">
+          <div id="myntra-navbar">
+            <div id="logo">
+              <a href="./myntra-home.html">
+                <img
+                  style="height: 100%; width: 100%"
+                  src="./images/myntra-logo.jpg"
+                />
+              </a>
+            </div>
+            <div id="nav-items">
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./men.html"
+                  >Men</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./women.html"
+                  >Women</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./kids.html"
+                  >Kids</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./home-living.html"
+                  >Home & Living</a
+                >
+              </div>
+              <div>
+                <a
+                  style="text-decoration: none; color: rgb(79, 79, 79)"
+                  href="./beauty.html"
+                  >Beauty</a
+                >
+              </div>
+              <div>
+                Studio <sup style="font-size: 10px; color: #ff3f75">NEW</sup>
+              </div>
+            </div>
+            <div id="search">
+              <div>
+                <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+                <input
+                  placeholder="Search for products,brands & More..."
+                  style="
+                    height: 30px;
+                    width: 300px;
+                    border: none;
+                    outline: none;
+                  "
+                />
+              </div>
+            </div>
+
+            <div id="nav-others">
+              <div
+                id="profile"
+                onmouseenter="showPopUp()"
+                onmouseleave="hidePopUp()"
+              >
+                <i class="fa-solid fa-user"></i>
+                <span><a href="./profile.html">Profile</a></span>
+              </div>
+              <div id="wishlist">
+                <i class="fa-solid fa-heart"></i>
+                <span><a href="./wishlist.html">Wishlist</a></span>
+              </div>
+              <div id="cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span><a href="./cart.html">Bag</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div
+        class="modal-box hide"
+        onmouseenter="showPopUp()"
+        onmouseleave="hidePopUp()"
+      >
+        <div class="box" id="welcome">
+          <h3>Welcome</h3>
+          <span>To access account and manage orders</span>
+          <div id="button">
+            <a href="./profile.html">
+              <button style="text-decoration: none">LOGIN / SIGNUP</button>
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <span>Orders</span>
+          <span>Wishlist</span>
+          <span>Gift Cards</span>
+          <span>Contact Us</span>
+          <span>Myntra insider</span>
+        </div>
+        <div class="box">
+          <span>Myntra Credit</span>
+          <span>Coupons</span>
+          <span>Saved Cards</span>
+          <span>Saved VPA</span>
+          <span>Saved Addresses</span>
+        </div>
+      </div>
+      <!--  -->
+
+      <div id="body">
+        <div id="details">
+          <div id="account">
+            <h3>Account</h3>
+            <span>santosh</span>
+          </div>
+          <div id="overview">
+            <div id="left">
+              <div id="overview-main">
+                <p>Overview</p>
+              </div>
+              <div id="orders">
+                <span>ORDERS</span>
+                <p>Orders & Returns</p>
+              </div>
+              <div id="credits">
+                <span>CREDITS</span>
+                <p>Coupons</p>
+                <p>Myntra Credit</p>
+                <p>MynCash</p>
+              </div>
+              <div id="account">
+                <span>ACCOUNT</span>
+                <h3>Profile</h3>
+                <p>Saved Cards</p>
+                <p>Saved VPA</p>
+                <p>Address</p>
+                <p>Myntra Insider</p>
+              </div>
+              <div id="legal">
+                <span>LEGAL</span>
+                <p>Terms of Use</p>
+                <p>Privacy Policy</p>
+                <p></p>
+              </div>
+            </div>
+            <div id="right">
+              <div id="header">
+                <h3>Profile Details</h3>
+              </div>
+              <div id="personal-details">
+                <div>
+                  <p>Full Name</p>
+                  <span>santosh</span>
+                </div>
+                <div>
+                  <p>Mobile Number</p>
+                  <span>8356015803</span>
+                </div>
+                <div>
+                  <p>Email ID</p>
+                  <span>santoshchappidi03@gmail.com</span>
+                </div>
+                <div>
+                  <p>Gender</p>
+                  <span>MALE</span>
+                </div>
+                <div>
+                  <p>Date of Birth</p>
+                  <span>- not added</span>
+                </div>
+                <div>
+                  <p>Location</p>
+                  <span>Chembur</span>
+                </div>
+                <div>
+                  <p>Alternate mobile</p>
+                  <span>- not added</span>
+                </div>
+                <div>
+                  <p>Hint Name</p>
+                  <span>- not added</span>
+                </div>
+              </div>
+              <div id="button">
+                <button>EDIT</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+    <div id="myntra-footer">
+      <div id="footer">
+        <div id="footer-1">
+          <div id="shopping">
+            <h5>ONLINE SHOPPING</h5>
+            <span>Men</span>
+            <span>Women</span>
+            <span>Kids</span>
+            <span>Home & Living</span>
+            <span>Beauty</span>
+            <span>Gift Cards</span>
+            <span>Myntra Insider</span>
+          </div>
+          <div id="links">
+            <h5>USEFUL LINKS</h5>
+            <span>Blogs</span>
+            <span>Careers</span>
+            <span>Site Map</span>
+            <span>Corporate Information</span>
+          </div>
+        </div>
+        <div id="footer-2">
+          <h5>CUSTOMER POLICIES</h5>
+          <span>Contact US</span>
+          <span>FAQ</span>
+          <span>T&C</span>
+          <span>Terms of Use</span>
+          <span>Track Orders</span>
+          <span>Shipping</span>
+          <span>Cancellation</span>
+          <span>Returns</span>
+          <span>Privacy Policy</span>
+        </div>
+        <div id="footer-3">
+          <div id="mobile">
+            <h5>EXPERIENCE MYNTRA APP ON MOBILE</h5>
+            <div id="play-stores">
+              <div>
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+                />
+              </div>
+              <div>
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div id="socials">
+            <h5>KEEP IN TOUCH</h5>
+            <i class="fa-brands fa-square-facebook fa-xl"></i>
+            <i class="fa-brands fa-twitter fa-xl"></i>
+            <i class="fa-brands fa-youtube fa-xl"></i>
+            <i class="fa-brands fa-instagram fa-xl"></i>
+          </div>
+          <div></div>
+        </div>
+        <div id="footer-4">
+          <div class="myntra-policy">
+            <div>
+              <img
+                src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
+              />
+            </div>
+            <span>
+              <b style="color: black">100% original</b> guarantee for all
+              products on myntra.com
+            </span>
+          </div>
+          <div class="myntra-policy">
+            <div>
+              <img
+                src="https://assets.myntassets.com/assets/images/retaillabs/2023/5/22/becb1b16-86cc-4e78-bdc7-7801c17947831684737106127-Return-Window-image.png"
+              />
+            </div>
+            <span>
+              <b style="color: black">Return within 30 days</b> of recieving
+              your order
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
